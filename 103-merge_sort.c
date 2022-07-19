@@ -17,17 +17,17 @@ void copy(int *src, int *dst, int size)
 		dst[i] = src[i];
 }
 /**
-* merge - merges two sets of data in ascending order
-* but they must already be sorted before hand
-* @array: first set of data
-* @buff: second set of data
-* @minL: lower range of first set of data
-* @maxL: upper range of first set of data
-* @minR: lower range of second set of data
-* @maxR: upper range of second set of data
-*
-* Return: No Return
-*/
+ * merge - merges two sets of data in ascending order
+ * but they must already be sorted before hand
+ * @array: first set of data
+ * @buff: second set of data
+ * @minL: lower range of first set of data
+ * @maxL: upper range of first set of data
+ * @minR: lower range of second set of data
+ * @maxR: upper range of second set of data
+ *
+ * Return: No Return
+ */
 void merge(int *array, int *buff, int minL, int maxL, int minR, int maxR)
 {
 	int i = minL, j = minR, k = minL;
